@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>cireng ceria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">CEMILAN <span>CERIA</span>.</a>
+    <div class="navbar-nav">
+      <a href="#">home</a>
+      <a href="#about">tentang kami</a>
+      <a href="#menu">menu</a>
+      <a href="https://wa.me/628981200108?text=Assalamualaikum%20Saya%20mau%20beli%20cireng%20dengan%20metode%20pembayaranya%20cod%20(sherlok)">contact admin</a>
+    </div>
+    <div class="navbar-extra">
+      <a href="#" id="search"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="menu"><i data-feather="menu"></i></a>
+    </div>
+  </nav>
+
+  <section class="hero" id="=home">
+    <main class="deskripsi">
+      <h1>lengkapi aktivitas mu dengan <span>camilan</span> favoritmu.</h1>
+      <p>Cemilan gurih, nikmat, dan bikin semangat!</p>
+      <a href="#tabel-menu" class="beli-sekarang">beli sekarang</a>
+    </main>
+  </section>
+
+  <section id="about" class="about">
+    <h2><span>tentang</span> kami</h2>
+    <div class="arrow">
+      <div class="about-img">
+        <img src="IMG-20250603-WA0002.jpg" alt="tentangkami" />
+      </div>
+      <div class="content">
+        <h3>kenapa memilih kami?</h3>
+        <p>Karena kami memberikan kualitas terbaik dan rasa khas rumahan.</p>
+        <p>Cocok untuk semua kalangan dan berbagai suasana!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tabel-menu" class="tabel-menu">
+    <h2>menu <span>kami</span></h2>
+    <div class="row">
+      <div class="menu-card">
+        <img src="IMG-20250603-WA0001.jpg" alt="cireng1">
+        <h3 class="nama-barang">- cireng -</h3>
+        <h3 class="harga">3000rp/pcs</h3>
+  
+        <h3 id="stok">Stok tersedia: 60</h3>
+        <h3 id="total-harga">Total: Rp 0</h3>
+        <button id="checkout-wa" style="margin-top: 15px; padding: 10px 20px; background-color: green; color: white; border: none; cursor: pointer; border-radius: 5px;">
+  Checkout via WhatsApp (COD)
+</button>
+
+        <div style="display: flex; justify-content: center; align-items: center; gap: 15px; font-size: 24px; margin-top: 10px;">
+          <button id="kurang">◀</button>
+          <input type="number" id="jumlah" value="0" min="0" style="width: 60px; text-align: center; font-size: 18px;">
+          <button id="tambah">▶</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h3>Cemilan Ceria</h3>
+      <p>Terhubung dengan kami di media sosial:</p>
+      <div class="social-icons">
+        <a href="https://shopee.co.id" target="_blank" title="Shopee">
+          <img src="https://img.icons8.com/color/48/000000/shopee.png" alt="Shopee" />
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61569962241014&mibextid=ZbWKwL" target="_blank" title="Facebook"><i data-feather="facebook"></i></a>
+        <a href="https://www.instagram.com/cemilanceeria?igsh=YzljYTk1ODg3Zg==" target="_blank" title="Instagram"><i data-feather="instagram"></i></a>
+        <a href="https://twitter.com" target="_blank" title="Twitter"><i data-feather="x"></i></a>
+        <a href="https://pinterest.com" target="_blank" title="Pinterest"><i data-feather="pinterest"></i></a>
+      </div>
+      <p class="copyright">© 2025 Cemilan Ceria. All rights reserved.</p>
+    </div>
+  </footer>
+<script>
+  feather.replace();
+</script>
+     <script src="index.js"></script>
